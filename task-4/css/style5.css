@@ -1,0 +1,27 @@
+div {
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background-color: #eee;
+    outline: 20px solid #2f3e46;
+}
+
+.shape-1 {
+    border: 10px solid red;
+}
+
+.shape-2 {
+    border-width: 10px;
+    border-style: solid;
+    border-color: green blue green blue;
+}
+
+.shape-3 {
+    border-width: 10px;
+    border-style: dashed;
+    border-color: red green blue yellow;
+}

@@ -1,0 +1,18 @@
+div {
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+
+}
+
+.shape-1 {
+    background-color: blueviolet;
+}
+
+.shape-2 {
+    background-color: rgb(138 43 226 / 50%);
+}
+
+.shape-3 {
+    background-color: rgb(138 43 226 / 10%);
+}
