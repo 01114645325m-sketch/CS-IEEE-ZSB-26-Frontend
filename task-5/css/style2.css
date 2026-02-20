@@ -1,0 +1,14 @@
+.box {
+    background-color: red;
+    color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    max-width: 400px;
+    width: fit-content;
+}
+
+.last {
+    height: 100px;
+    overflow: hidden;
+    width: 400px;
+}

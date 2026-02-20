@@ -1,0 +1,22 @@
+.box {
+  width: 400px;
+  background-color: #eee;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+.normal {
+  word-break: break-word;
+}
+
+.short {
+  width: 400px;
+}
+
+.truncate {
+  white-space: nowrap; 
+  overflow: hidden;    
+  text-overflow: ellipsis; 
+}
