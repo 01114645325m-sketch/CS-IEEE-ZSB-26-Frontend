@@ -1,0 +1,38 @@
+body {
+  counter-reset: product;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  background-color: #eee;
+  padding: 20px;
+  margin: 20px;
+  position: relative;
+  padding-left: 70px;
+}
+
+p::before {
+  counter-increment: product;
+  content: counter(product);
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: red;
+  color: white;
+  width: 50px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  
+  font-weight: bold;
+}
+
+p::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: red;
+  width: 5px;
+  height: 100%;
+}

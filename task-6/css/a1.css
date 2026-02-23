@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+.parent {
+  width: 800px;
+  margin: 20px auto;
+  padding: 15px;
+  background-color: #eee;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.parent div {
+  background-color: #ddd;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.full {
+  flex: 0 0 100%;
+}
+
+.third {
+  flex: 0 0 calc((100% - 30px) / 3);
+}
+
+.half {
+  flex: 0 0 calc((100% - 15px) / 2);
+}
+
+.quarter {
+  flex: 0 0 calc((100% - 45px) / 4);
+}

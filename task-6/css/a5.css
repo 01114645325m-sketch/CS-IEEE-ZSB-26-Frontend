@@ -1,0 +1,48 @@
+.dev-table {
+  width: 700px;
+  margin: 20px auto;
+  border-spacing: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  border-bottom: 2px solid #009688;
+}
+
+.dev-table caption {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.dev-table th {
+  background-color: #444;
+  color: white;
+  padding: 15px;
+}
+
+.dev-table td {
+  padding: 10px;
+  background-color: white;
+  border-bottom: 1px solid white;
+}
+
+.dev-table img {
+  width: 40px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.dev-table button {
+  padding: 5px 10px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.view {
+  background-color: blue;
+}
+
+.delete {
+  background-color: red;
+}

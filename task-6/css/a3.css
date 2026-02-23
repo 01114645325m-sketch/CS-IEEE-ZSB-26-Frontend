@@ -1,0 +1,43 @@
+.all div {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
+
+.all {
+    position: relative;
+    height: 200px;
+
+}
+
+.green {
+    background-color: green;
+    top: 40px;
+    left: 40px;
+    z-index: 3;
+}
+
+.red {
+    background-color: red;
+    top: 60px;
+    left: 60px;
+    z-index: 4;
+
+}
+
+.blue {
+    background-color: blue;
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+
+}
+
+.black {
+    background-color: black;
+    top: 40px;
+    left: 20px;
+    z-index: 1;
+
+
+}
