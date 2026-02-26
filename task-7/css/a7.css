@@ -1,0 +1,57 @@
+:root {
+  --main-bg: #eee;
+  --box-bg: #ddd;
+  --gap: 10px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap);
+  width: 1000px;
+  margin: 20px auto;
+  padding: var(--gap);
+  background-color: var(--main-bg);
+}
+
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--gap);
+}
+
+.logo, .links, .content, .sidebar, .copyright, .design {
+  background-color: var(--box-bg);
+  padding: 15px;
+}
+
+.links {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+}
+
+.main-area {
+  display: flex;
+  gap: var(--gap);
+  height: 400px;
+}
+
+.content {
+  flex: 4;
+}
+
+.sidebar {
+  flex: 1;
+}
+
+.copyright, .design {
+  flex: 1;
+}

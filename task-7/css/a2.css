@@ -1,0 +1,12 @@
+.div1 {
+    content: "ELZERO" !important;
+    
+    color: black !important;
+    padding: 20px !important;
+    border: 1px solid black !important;
+    
+    font-size: 20px !important;
+    width: 400px !important;
+    margin: 20px auto !important;
+    text-align: center !important;
+}
