@@ -1,0 +1,22 @@
+.assign-two {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.assign-two input {
+  width: 600px;
+  padding: 10px;
+  background-color: #eee;
+  border: none; 
+  outline: none; 
+ 
+  caret-color: red; 
+  
+  
+  border-bottom: 3px solid;
+  border-image-source: linear-gradient(to right, #f44336 50%, #4caf50 50%);
+  border-image-slice: 1;
+}
